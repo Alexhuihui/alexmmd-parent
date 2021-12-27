@@ -17,6 +17,7 @@
         <spring-cloud-alibaba.version>2.2.6.RELEASE</spring-cloud-alibaba.version>
         <spring-cloud.version>2020.0.5</spring-cloud.version>
         <spring-boot.version>2.5.7</spring-boot.version>
+        <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
         <hutool-version>5.7.17</hutool-version>
     </properties>
 
@@ -96,6 +97,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.boot.maven.plugin.version}</version>
             </plugin>
         </plugins>
     </build>
